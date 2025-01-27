@@ -64,6 +64,11 @@ export default {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
+        "wave": {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(-25%)" },
+          "100%": { transform: "translateX(0)" },
+        },
       },
       animation: {
         "gradient-x": "gradient-x 15s ease infinite",
