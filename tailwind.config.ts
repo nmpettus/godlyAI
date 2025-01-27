@@ -30,7 +30,7 @@ export default {
         },
         card: {
           green: "#F2FCE2",
-          purple: "#9B87F5",
+          purple: "#7B68DD",
           yellow: "#FEF7CD",
           orange: "#FEC6A1",
           pink: "#FFDEE2",
