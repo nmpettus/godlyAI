@@ -3,8 +3,30 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary-dark opacity-80 animate-gradient-x" />
+    <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden mt-16">
+      <div 
+        className="absolute inset-0 bg-gradient-to-br from-primary via-card-purple to-primary-dark opacity-80"
+        style={{
+          backgroundSize: "400% 400%",
+          animation: "gradient 15s ease infinite",
+          WebkitAnimation: "gradient 15s ease infinite",
+        }}
+      />
+      <style>
+        {`
+          @keyframes gradient {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          }
+        `}
+      </style>
       <div className="relative z-10 text-center px-4 animate-fade-up">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
           AI-Powered Apps
