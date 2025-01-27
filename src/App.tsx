@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import Index from "./pages/Index";
 import Contact from "./pages/Contact";
+import Apps from "./pages/Apps";
 import { Footer } from "./components/Footer";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/apps" element={<Apps />} />
         </Routes>
         <Footer />
       </BrowserRouter>
