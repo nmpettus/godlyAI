@@ -10,7 +10,7 @@ interface AppCardProps {
 
 export const AppCard = ({ title, description, image, gradient }: AppCardProps) => {
   return (
-    <Card className={`p-6 ${gradient} shadow-lg backdrop-blur-sm bg-opacity-90 transform transition-all duration-300 hover:scale-105 hover:shadow-xl animate-gradient-x`}>
+    <Card className={`p-6 ${gradient} shadow-lg backdrop-blur-sm bg-opacity-90 transform transition-all duration-300 hover:scale-105 hover:shadow-xl`}>
       <div className="aspect-video rounded-lg mb-4 overflow-hidden shadow-md">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
