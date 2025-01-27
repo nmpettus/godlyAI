@@ -25,12 +25,17 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
+          DEFAULT: "#8B5CF6",
           dark: "#7E69AB",
         },
         card: {
           green: "#F2FCE2",
           purple: "#E5DEFF",
+          yellow: "#FEF7CD",
+          orange: "#FEC6A1",
+          pink: "#FFDEE2",
+          peach: "#FDE1D3",
+          blue: "#D3E4FD",
         },
       },
       keyframes: {
