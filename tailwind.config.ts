@@ -26,19 +26,30 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "#8B5CF6",
-          dark: "#7E69AB",
+          dark: "#1A1F2C",
         },
         card: {
           green: "#F2FCE2",
-          purple: "#E5DEFF",
+          purple: "#9b87f5",
           yellow: "#FEF7CD",
           orange: "#FEC6A1",
           pink: "#FFDEE2",
           peach: "#FDE1D3",
           blue: "#D3E4FD",
+          dark: "#221F26",
         },
       },
       keyframes: {
+        "gradient-x": {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
         "fade-up": {
           "0%": {
             opacity: "0",
@@ -55,6 +66,7 @@ export default {
         },
       },
       animation: {
+        "gradient-x": "gradient-x 15s ease infinite",
         "fade-up": "fade-up 0.5s ease-out",
         "fade-in": "fade-in 0.5s ease-out",
       },
