@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden mt-16">
       <div 
-        className="absolute inset-0 bg-gradient-to-br from-primary via-card-purple to-primary-dark opacity-80 animate-gradient-x"
+        className="absolute inset-0 bg-gradient-to-br from-primary via-primary-dark to-primary-dark opacity-80 animate-gradient-x"
       />
       <div className="absolute inset-0 opacity-30">
         <svg className="absolute bottom-0 w-full h-48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -26,7 +26,7 @@ export const Hero = () => {
         </svg>
       </div>
       <div className="relative z-10 text-center px-4 animate-fade-up">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
           AI-Powered Apps
         </h1>
         <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto">
