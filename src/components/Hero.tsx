@@ -6,7 +6,10 @@ export const Hero = () => {
     <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden mt-16">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url("/hero-brain.png")' }}
+        style={{ 
+          backgroundImage: `url(${new URL('/hero-brain.png', window.location.origin).href})`,
+          backgroundSize: 'cover'
+        }}
       />
       <div 
         className="absolute inset-0 bg-gradient-to-br from-card-purple via-primary to-primary-dark opacity-80 animate-gradient-x"
