@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GodlyAI.org - Apps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles from index.css */
+        :root {
+            --background: 0 0% 100%;
+            --foreground: 222.2 84% 4.9%;
+            --card: 0 0% 100%;
+            --card-foreground: 222.2 84% 4.9%;
+        }
+
+        @keyframes gradient-x {
+            0%, 100% {
+                background-size: 200% 200%;
+                background-position: left center;
+            }
+            50% {
+                background-size: 200% 200%;
+                background-position: right center;
+            }
+        }
+
+        @keyframes fade-up {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-up {
+            animation: fade-up 0.5s ease-out;
+        }
+
+        .animate-gradient-x {
+            animation: gradient-x 15s ease infinite;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navbar -->
+    <nav class="bg-[#221F26]/95 backdrop-blur-sm fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center space-x-2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                            <line x1="12" y1="4" x2="12" y2="20"></line>
+                            <line x1="6" y1="9" x2="18" y2="9"></line>
+                        </svg>
+                        <span class="text-white font-bold text-xl">GodlyAI.org</span>
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <p class="text-gray-300 italic text-xs">"Plans fail when there is no counsel,..." Proverbs 15:22</p>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="/apps" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Apps</a>
+                        <a href="/books" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Books</a>
+                        <a href="/contact" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="pt-16">
+        <!-- Featured Apps Section -->
+        <div class="py-20 px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 animate-fade-up">Featured Applications</h2>
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- App Cards -->
+                <div class="p-6 bg-gradient-to-br from-[#7B68DD] to-[#FFDEE2] shadow-lg backdrop-blur-sm bg-opacity-90 transform transition-all duration-300 hover:scale-105 hover:shadow-xl rounded-lg">
+                    <div class="aspect-video rounded-lg mb-4 overflow-hidden shadow-md">
+                        <img src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3" alt="Bible Verse AI" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">Bible Verse AI</h3>
+                    <p class="text-gray-700 mb-4 min-h-[3rem]">Discover and explore Bible verses with AI-powered insights and recommendations.</p>
+                    <button class="w-full bg-gradient-to-r from-[#6E59A5] to-[#1A1F2C] hover:opacity-90 transition-opacity text-white font-semibold px-4 py-2 rounded">Try Now</button>
+                </div>
+
+                <!-- Additional app cards can be copied and modified from above -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#221F26] text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">AI-Powered Apps</h3>
+                    <p class="text-gray-300">Discover innovative applications powered by artificial intelligence.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="/contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <p class="text-gray-300">Email: info@aiapps.com</p>
+                    <p class="text-gray-300">Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 AI-Powered Apps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
