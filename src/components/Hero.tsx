@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="relative min-h-[700px] flex items-center justify-center overflow-hidden mt-16">
       <div 
@@ -21,10 +23,17 @@ export const Hero = () => {
           designed to enhance your spiritual journey.
         </p>
         <div className="flex gap-4 justify-center">
-          <Button className="bg-white hover:bg-gray-100 text-primary-dark w-[160px] h-[60px] text-lg rounded-full [text-shadow:_-1px_1px_1px_rgba(0,0,0,0.1)]">
+          <Button 
+            className="bg-white hover:bg-gray-100 text-primary-dark w-[160px] h-[60px] text-lg rounded-full [text-shadow:_-1px_1px_1px_rgba(0,0,0,0.1)]"
+            onClick={() => navigate('/apps')}
+          >
             Explore Apps
           </Button>
-          <Button variant="outline" className="w-[160px] h-[60px] text-lg rounded-full border-2 border-white text-black hover:bg-white hover:text-primary-dark">
+          <Button 
+            variant="outline" 
+            className="w-[160px] h-[60px] text-lg rounded-full border-2 border-white text-black hover:bg-white hover:text-primary-dark"
+            onClick={() => navigate('/contact')}
+          >
             Contact Us
           </Button>
         </div>
