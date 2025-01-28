@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 export const About = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-card.purple/20 to-card.blue/30" id="about">
+    <section className="py-16 px-4 bg-[#E5DEFF]" id="about">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-primary mb-8 text-center">Understanding AI</h2>
         
