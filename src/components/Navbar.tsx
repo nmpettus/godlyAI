@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { Menu, Cross, Mail, AppWindow, Book } from "lucide-react";
+import { Menu, Mail, AppWindow, Book } from "lucide-react";
 import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
+import { ChristianCross } from "./icons/ChristianCross";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <button onClick={() => handleNavigation("/")} className="flex items-center space-x-2">
-              <Cross className="h-6 w-6 text-white" />
+              <ChristianCross className="h-6 w-6 text-white" />
               <span className="text-white font-bold text-xl">GodlyAI.org</span>
             </button>
           </div>
@@ -28,7 +29,7 @@ export const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <button onClick={() => handleNavigation("/")} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
-                <Cross className="h-4 w-4" />
+                <ChristianCross className="h-4 w-4" />
                 Home
               </button>
               <button onClick={() => handleNavigation("/apps")} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
