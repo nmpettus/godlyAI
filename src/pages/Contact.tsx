@@ -51,6 +51,12 @@ const Contact = () => {
             onSubmit={handleSubmit} 
             className="space-y-6"
           >
+            {/* FormSubmit Configuration */}
+            <input type="hidden" name="_subject" value="New contact form submission" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value={window.location.href} />
+
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                 Name
