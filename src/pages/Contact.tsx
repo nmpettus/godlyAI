@@ -2,10 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/components/ui/use-toast";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -22,7 +23,7 @@ const Contact = () => {
           title: "Message sent!",
           description: "We'll get back to you as soon as possible.",
         });
-        e.currentTarget.reset();
+        formRef.current?.reset();
       } else {
         throw new Error('Failed to send message');
       }
@@ -44,6 +45,7 @@ const Contact = () => {
         <h1 className="text-4xl font-bold text-center mb-12 text-gray-800 animate-fade-up">Contact Us</h1>
         <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-xl animate-fade-up">
           <form 
+            ref={formRef}
             action="https://formsubmit.co/norm@technologyministries.org" 
             method="POST" 
             onSubmit={handleSubmit} 
