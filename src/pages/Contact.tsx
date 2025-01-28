@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
             <Button 
               type="submit" 
-              className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity"
+              className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Sending..." : "Send Message"}
