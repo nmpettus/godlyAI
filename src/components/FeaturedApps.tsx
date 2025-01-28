@@ -23,6 +23,7 @@ export const FeaturedApps = () => {
           description="Challenge yourself with AI-generated Sudoku puzzles of varying difficulty levels."
           image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
           gradient="bg-gradient-to-br from-card-yellow to-card-orange"
+          link="https://godlyai.org/sudoku"
         />
         <AppCard
           title="Talking Tic-Tac-Toe"
