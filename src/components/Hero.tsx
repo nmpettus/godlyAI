@@ -7,8 +7,9 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: `url(${new URL('/hero-brain.png', window.location.origin).href})`,
-          backgroundSize: 'cover'
+          backgroundImage: "url('/hero-brain.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
         }}
       />
       <div 
