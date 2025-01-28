@@ -2,9 +2,9 @@ import { Card } from "@/components/ui/card";
 
 export const About = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-card.dark to-primary-dark">
+    <section className="py-16 px-4 bg-gradient-to-b from-card.purple/20 to-card.blue/30" id="about">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-white mb-8 text-center">Understanding AI</h2>
+        <h2 className="text-4xl font-bold text-primary mb-8 text-center">Understanding AI</h2>
         
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="p-6 bg-white/95 backdrop-blur">
@@ -30,7 +30,7 @@ export const About = () => {
           </Card>
         </div>
         
-        <p className="text-white text-center mt-8 max-w-3xl mx-auto">
+        <p className="text-primary text-center mt-8 max-w-3xl mx-auto">
           At Technology Ministries, we harness AI as a tool to enhance and support our mission, 
           while maintaining a clear understanding of its role as a supplement to, not a replacement for, 
           human wisdom and spiritual guidance.
