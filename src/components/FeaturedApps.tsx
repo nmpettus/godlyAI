@@ -30,6 +30,7 @@ export const FeaturedApps = () => {
           description="Play against an AI opponent that provides voice feedback and strategic insights."
           image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
           gradient="bg-gradient-to-br from-card-blue to-card-purple"
+          link="https://godlyai.org/TTT"
         />
         <AppCard
           title="Daily Bible Verse"
