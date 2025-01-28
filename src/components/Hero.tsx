@@ -22,16 +22,16 @@ export const Hero = () => {
           Discover innovative applications powered by artificial intelligence,
           designed to enhance your spiritual journey.
         </p>
-        <div className="flex gap-8 justify-center">
+        <div className="flex gap-16 justify-center">
           <Button 
-            className="bg-gradient-to-r from-white to-gray-100 hover:from-gray-100 hover:to-white text-primary-dark w-[160px] h-[60px] text-lg rounded-full [text-shadow:_-1px_1px_1px_rgba(0,0,0,0.1)]"
+            className="bg-gradient-to-r from-[#fdfcfb] to-[#e2d1c3] text-black w-[160px] h-[60px] text-lg rounded-full font-medium hover:opacity-90"
             onClick={() => navigate('/apps')}
           >
             Explore Apps
           </Button>
           <Button 
             variant="outline" 
-            className="bg-gradient-to-r from-transparent to-white/10 hover:from-white/10 hover:to-white/20 w-[160px] h-[60px] text-lg rounded-full border-2 border-white text-white hover:text-white"
+            className="bg-gradient-to-r from-[#e6e9f0] to-[#eef1f5] w-[160px] h-[60px] text-lg rounded-full border-2 border-white text-black hover:opacity-90"
             onClick={() => navigate('/contact')}
           >
             Contact Us
