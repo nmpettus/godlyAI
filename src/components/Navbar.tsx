@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Menu, Mail, AppWindow, Book } from "lucide-react";
+import { Menu, Mail, AppWindow, Book, Info } from "lucide-react";
 import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
 import { ChristianCross } from "./icons/ChristianCross";
@@ -39,7 +39,8 @@ export const Navbar = () => {
                 <ChristianCross className="h-4 w-4" />
                 Home
               </button>
-              <button onClick={scrollToAbout} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <button onClick={scrollToAbout} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
+                <Info className="h-4 w-4" />
                 About
               </button>
               <button onClick={() => handleNavigation("/apps")} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
