@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden mt-16">
+    <div className="relative min-h-[800px] flex items-center justify-center overflow-hidden mt-16">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
