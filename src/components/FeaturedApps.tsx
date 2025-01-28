@@ -44,6 +44,7 @@ export const FeaturedApps = () => {
           description="Visualize and track medical history with AI-powered insights and reminders."
           image="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
           gradient="bg-gradient-to-br from-card-green to-card-yellow"
+          link="https://godlyai.org/medical"
         />
         <AppCard
           title="Speaking Slot Machine"
