@@ -46,7 +46,7 @@ const Contact = () => {
         <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-xl animate-fade-up">
           {!isActivated ? (
             <form 
-              action="https://formsubmit.co/your-email@example.com" 
+              action="https://formsubmit.co/norm@technologyministries.org" 
               method="POST" 
               className="space-y-6"
               onSubmit={(e) => {
@@ -79,7 +79,7 @@ const Contact = () => {
             </form>
           ) : (
             <form 
-              action="https://formsubmit.co/your-email@example.com" 
+              action="https://formsubmit.co/norm@technologyministries.org" 
               method="POST" 
               onSubmit={handleSubmit} 
               className="space-y-6"
