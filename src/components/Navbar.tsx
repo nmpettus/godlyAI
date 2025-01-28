@@ -14,9 +14,22 @@ export const Navbar = () => {
   };
 
   const scrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    // First navigate to home if not already there
+    if (window.location.pathname !== '/') {
+      navigate('/');
+      // Wait for navigation to complete before scrolling
+      setTimeout(() => {
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+          aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      // If already on home page, just scroll
+      const aboutSection = document.getElementById('about');
+      if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
@@ -38,7 +51,7 @@ export const Navbar = () => {
               </button>
               <button onClick={scrollToAbout} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
                 <Info className="h-4 w-4" />
-                About
+                Understanding AI
               </button>
               <button onClick={() => handleNavigation("/apps")} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
                 <AppWindow className="h-4 w-4" />
