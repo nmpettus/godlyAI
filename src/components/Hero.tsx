@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-[800px] flex items-center justify-center overflow-hidden mt-16">
+    <div className="relative min-h-[700px] flex items-center justify-center overflow-hidden mt-16">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
@@ -21,11 +21,11 @@ export const Hero = () => {
           designed to enhance your spiritual journey.
         </p>
         <div className="flex gap-4 justify-center">
-          <Button className="bg-white hover:bg-gray-100 text-primary-dark px-8 py-6 text-lg rounded-full [text-shadow:_-1px_1px_1px_rgba(0,0,0,0.1)]">
+          <Button className="bg-white hover:bg-gray-100 text-primary-dark w-[160px] py-6 text-lg rounded-full [text-shadow:_-1px_1px_1px_rgba(0,0,0,0.1)]">
             Explore Apps
           </Button>
           <Link to="/contact">
-            <Button variant="outline" className="px-8 py-6 text-lg rounded-full border-2 border-white text-black hover:bg-white hover:text-primary-dark">
+            <Button variant="outline" className="w-[160px] py-6 text-lg rounded-full border-2 border-white text-black hover:bg-white hover:text-primary-dark">
               Contact Us
             </Button>
           </Link>
