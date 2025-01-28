@@ -2,14 +2,46 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/components/ui/use-toast";
+import emailjs from '@emailjs/browser';
+import { useState } from "react";
 
 const Contact = () => {
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    toast({
-      title: "Message sent!",
-      description: "We'll get back to you as soon as possible.",
-    });
+    setIsSubmitting(true);
+
+    const form = e.currentTarget;
+    const formData = {
+      from_name: (form.querySelector('#name') as HTMLInputElement).value,
+      from_email: (form.querySelector('#email') as HTMLInputElement).value,
+      message: (form.querySelector('#message') as HTMLTextAreaElement).value,
+      to_email: 'norm@technologyministries.org'
+    };
+
+    try {
+      await emailjs.send(
+        'YOUR_SERVICE_ID',
+        'YOUR_TEMPLATE_ID',
+        formData,
+        'YOUR_PUBLIC_KEY'
+      );
+      
+      toast({
+        title: "Message sent!",
+        description: "We'll get back to you as soon as possible.",
+      });
+      form.reset();
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "There was a problem sending your message. Please try again.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -36,8 +68,12 @@ const Contact = () => {
               </label>
               <Textarea id="message" required className="w-full min-h-[150px]" />
             </div>
-            <Button type="submit" className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity">
-              Send Message
+            <Button 
+              type="submit" 
+              className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? "Sending..." : "Send Message"}
             </Button>
           </form>
         </div>
