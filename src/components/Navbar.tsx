@@ -31,9 +31,6 @@ export const Navbar = () => {
             </button>
           </div>
           <div className="hidden md:block">
-            <p className="text-gray-300 italic text-xs">"Plans fail when there is no counsel,..." Proverbs 15:22</p>
-          </div>
-          <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <button onClick={() => handleNavigation("/")} className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
                 <ChristianCross className="h-4 w-4" />
