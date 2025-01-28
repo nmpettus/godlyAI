@@ -9,7 +9,7 @@ export const BookSection = () => {
         <Card className="p-8 flex flex-col md:flex-row gap-8 items-center bg-white/90 backdrop-blur-sm">
           <div className="w-full md:w-1/3">
             <img
-              src="https://m.media-amazon.com/images/I/61YDuS+wu3L._SY466_.jpg"
+              src="/lovable-uploads/f44b2cbf-00c1-4495-b369-73a67641c8d8.png"
               alt="In the Beginning - A Children's Book About Creation"
               className="rounded-lg shadow-xl w-full aspect-[3/4] object-contain"
             />
