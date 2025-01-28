@@ -12,9 +12,6 @@ export const Hero = () => {
           backgroundPosition: 'center'
         }}
       />
-      <div 
-        className="absolute inset-0 bg-gradient-to-br from-card-purple via-primary to-primary-dark opacity-80 animate-gradient-x"
-      />
       <div className="absolute inset-0 opacity-30">
         <svg className="absolute bottom-0 w-full h-48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path 
