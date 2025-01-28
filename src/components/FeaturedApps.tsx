@@ -37,6 +37,7 @@ export const FeaturedApps = () => {
           description="Receive daily spiritual inspiration with AI-curated Bible verses and reflections."
           image="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
           gradient="bg-gradient-to-br from-card-peach to-card-pink"
+          link="https://godlyai.org/dailyverse"
         />
         <AppCard
           title="Medical Timeline"
