@@ -24,14 +24,14 @@ export const Hero = () => {
         </p>
         <div className="flex gap-16 justify-center">
           <Button 
-            className="bg-gradient-to-r from-[#fdfcfb] to-[#e2d1c3] text-black w-[160px] h-[60px] text-lg rounded-full font-medium hover:opacity-90"
+            className="bg-gradient-to-r from-[#fdfcfb] to-[#e2d1c3] text-black w-[160px] h-[60px] text-lg rounded-full font-medium hover:opacity-90 border-2 border-black"
             onClick={() => navigate('/apps')}
           >
             Explore Apps
           </Button>
           <Button 
             variant="outline" 
-            className="bg-gradient-to-r from-[#e6e9f0] to-[#eef1f5] w-[160px] h-[60px] text-lg rounded-full border-2 border-white text-black hover:opacity-90"
+            className="bg-gradient-to-r from-[#e6e9f0] to-[#eef1f5] w-[160px] h-[60px] text-lg rounded-full border-2 border-black text-black hover:opacity-90"
             onClick={() => navigate('/contact')}
           >
             Contact Us
