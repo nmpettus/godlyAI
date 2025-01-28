@@ -15,7 +15,7 @@ export const BookSection = () => {
             />
           </div>
           <div className="w-full md:w-2/3 space-y-6">
-            <h3 className="text-3xl font-bold text-primary">In the Beginning - A Children's Book About Creation</h3>
+            <h3 className="text-3xl font-bold text-primary">Creation as told by Maggie - A Children's Book</h3>
             <p className="text-lg text-gray-700">
               Join Maggie the Yorkie as she narrates the beautiful story of Creation, making it engaging and understandable for young children.
             </p>
