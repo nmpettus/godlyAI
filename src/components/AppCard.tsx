@@ -6,9 +6,10 @@ interface AppCardProps {
   description: string;
   image: string;
   gradient: string;
+  link?: string;
 }
 
-export const AppCard = ({ title, description, image, gradient }: AppCardProps) => {
+export const AppCard = ({ title, description, image, gradient, link }: AppCardProps) => {
   return (
     <Card className={`p-6 ${gradient} shadow-lg backdrop-blur-sm bg-opacity-90 transform transition-all duration-300 hover:scale-105 hover:shadow-xl`}>
       <div className="aspect-video rounded-lg mb-4 overflow-hidden shadow-md">
@@ -16,7 +17,10 @@ export const AppCard = ({ title, description, image, gradient }: AppCardProps) =
       </div>
       <h3 className="text-2xl font-bold mb-2 text-gray-800">{title}</h3>
       <p className="text-gray-700 mb-4 min-h-[3rem]">{description}</p>
-      <Button className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold">
+      <Button 
+        className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold"
+        onClick={() => link && window.open(link, '_blank')}
+      >
         Try Now
       </Button>
     </Card>

@@ -10,6 +10,7 @@ export const FeaturedApps = () => {
           description="Discover and explore Bible verses with AI-powered insights and recommendations."
           image="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
           gradient="bg-gradient-to-br from-card-purple to-card-pink"
+          link="https://godlyai.org/bibleanswer"
         />
         <AppCard
           title="Christian Chat Assistant"
