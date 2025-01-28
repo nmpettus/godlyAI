@@ -25,7 +25,7 @@ export const Hero = () => {
             Explore Apps
           </Button>
           <Link to="/contact">
-            <Button variant="outline" className="px-8 py-6 text-lg rounded-full border-2 border-white text-white hover:bg-white hover:text-primary-dark">
+            <Button variant="outline" className="px-8 py-6 text-lg rounded-full border-2 border-white text-black hover:bg-white hover:text-primary-dark">
               Contact Us
             </Button>
           </Link>
