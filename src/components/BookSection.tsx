@@ -9,25 +9,25 @@ export const BookSection = () => {
         <Card className="p-8 flex flex-col md:flex-row gap-8 items-center bg-white/90 backdrop-blur-sm">
           <div className="w-full md:w-1/3">
             <img
-              src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1"
-              alt="Children's Book Cover"
-              className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
+              src="https://m.media-amazon.com/images/I/61YDuS+wu3L._SY466_.jpg"
+              alt="In the Beginning - A Children's Book About Creation"
+              className="rounded-lg shadow-xl w-full aspect-[3/4] object-contain"
             />
           </div>
           <div className="w-full md:w-2/3 space-y-6">
-            <h3 className="text-3xl font-bold text-primary">The Adventures of Lovable AI</h3>
+            <h3 className="text-3xl font-bold text-primary">In the Beginning - A Children's Book About Creation</h3>
             <p className="text-lg text-gray-700">
-              Join us on an exciting journey through the world of artificial intelligence, where children learn about technology, ethics, and friendship in a fun and engaging way.
+              Join Maggie the Yorkie as she narrates the beautiful story of Creation, making it engaging and understandable for young children.
             </p>
             <div className="space-y-4">
               <p className="text-gray-600">
-                ✨ Perfect for ages 6-12
+                ✨ Perfect for ages 3-6
               </p>
               <p className="text-gray-600">
-                📚 Educational and entertaining
+                📚 Narrated by a lovable Yorkie named Maggie
               </p>
               <p className="text-gray-600">
-                🌟 Beautifully illustrated
+                🌟 Teaches the Creation story in a child-friendly way
               </p>
             </div>
             <Button 
