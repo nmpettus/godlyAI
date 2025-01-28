@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Menu, Home, Mail, AppWindow } from "lucide-react";
+import { Menu, Home, Mail, AppWindow, Book } from "lucide-react";
 import { Button } from "./ui/button";
 
 export const Navbar = () => {
@@ -25,6 +25,10 @@ export const Navbar = () => {
               <Link to="/apps" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
                 <AppWindow className="h-4 w-4" />
                 Apps
+              </Link>
+              <Link to="/books" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
+                <Book className="h-4 w-4" />
+                Books
               </Link>
               <Link to="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2">
                 <Mail className="h-4 w-4" />

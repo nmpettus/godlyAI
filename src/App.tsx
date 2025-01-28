@@ -7,6 +7,7 @@ import { Navbar } from "./components/Navbar";
 import Index from "./pages/Index";
 import Contact from "./pages/Contact";
 import Apps from "./pages/Apps";
+import Books from "./pages/Books";
 import { Footer } from "./components/Footer";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/apps" element={<Apps />} />
+          <Route path="/books" element={<Books />} />
         </Routes>
         <Footer />
       </BrowserRouter>
