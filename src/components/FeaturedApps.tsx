@@ -13,7 +13,7 @@ export const FeaturedApps = () => {
           link="https://godlyai.org/bibleanswer"
         />
         <AppCard
-          title="Christian Chat Assistant"
+          title="Christian Chat"
           description="Get thoughtful answers to your spiritual questions from our AI-powered Christian chatbot."
           image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
           gradient="bg-gradient-to-br from-card-green to-card-blue"
