@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 export const About = () => {
   return (
     <section className="h-[800px] px-4 bg-[#E5DEFF]" id="about">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto pt-32">
         <h2 className="text-4xl font-bold text-primary mb-8 text-center">Understanding AI</h2>
         
         <div className="grid md:grid-cols-2 gap-8">
