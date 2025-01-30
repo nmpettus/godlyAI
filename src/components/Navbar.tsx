@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
-import { Menu, Mail, AppWindow, Book, Info } from "lucide-react";
+import { Menu, Mail, AppWindow, Book, Info, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
 import { ChristianCross } from "./icons/ChristianCross";
+import { useState } from "react";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
 export const Navbar = () => {
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleNavigation = (path: string) => {
     navigate(path);
+    setIsOpen(false);
     // Reset scroll position when navigating
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -31,6 +35,7 @@ export const Navbar = () => {
         aboutSection.scrollIntoView({ behavior: 'smooth' });
       }
     }
+    setIsOpen(false);
   };
 
   return (
@@ -68,9 +73,37 @@ export const Navbar = () => {
             </div>
           </div>
           <div className="md:hidden">
-            <Button variant="ghost" size="icon" className="text-white">
-              <Menu className="h-6 w-6" />
-            </Button>
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="text-white">
+                  <Menu className="h-6 w-6" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] bg-primary sm:w-[400px]">
+                <nav className="flex flex-col gap-4">
+                  <button onClick={() => handleNavigation("/")} className="flex items-center gap-2 text-white px-3 py-2 rounded-md text-lg font-medium">
+                    <ChristianCross className="h-5 w-5" />
+                    Home
+                  </button>
+                  <button onClick={scrollToAbout} className="flex items-center gap-2 text-white px-3 py-2 rounded-md text-lg font-medium">
+                    <Info className="h-5 w-5" />
+                    Understanding AI
+                  </button>
+                  <button onClick={() => handleNavigation("/apps")} className="flex items-center gap-2 text-white px-3 py-2 rounded-md text-lg font-medium">
+                    <AppWindow className="h-5 w-5" />
+                    Apps
+                  </button>
+                  <button onClick={() => handleNavigation("/books")} className="flex items-center gap-2 text-white px-3 py-2 rounded-md text-lg font-medium">
+                    <Book className="h-5 w-5" />
+                    Books
+                  </button>
+                  <button onClick={() => handleNavigation("/contact")} className="flex items-center gap-2 text-white px-3 py-2 rounded-md text-lg font-medium">
+                    <Mail className="h-5 w-5" />
+                    Contact
+                  </button>
+                </nav>
+              </SheetContent>
+            </Sheet>
           </div>
         </div>
       </div>
