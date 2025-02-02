@@ -22,7 +22,7 @@ export const Hero = () => {
           Discover innovative applications powered by artificial intelligence,
           designed to enhance your spiritual journey.
         </p>
-        <p className="text-lg md:text-xl text-black mb-16 max-w-2xl mx-auto italic px-6 md:px-0 font-bold bg-white/80 py-4 rounded-lg">
+        <p className="text-base md:text-lg text-black mb-16 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
           "Let us be wise as serpents, yet harmless as doves, embracing AI not as a replacement, but as a tool for good in the hands of the faithful."
         </p>
         <div className="flex flex-col md:flex-row gap-4 md:gap-16 justify-center px-8 md:px-0">
