@@ -18,11 +18,11 @@ export const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
           AI-Powered Apps
         </h1>
-        <p className="text-xl md:text-2xl text-white mb-16 max-w-2xl mx-auto [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
+        <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
           Discover innovative applications powered by artificial intelligence,
           designed to enhance your spiritual journey.
         </p>
-        <p className="text-base md:text-lg text-black mb-16 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
+        <p className="text-base md:text-lg text-black mt-8 mb-16 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
           "Let us be wise as serpents, yet harmless as doves, embracing AI not as a replacement, but as a tool for good in the hands of the faithful."
         </p>
         <div className="flex flex-col md:flex-row gap-4 md:gap-16 justify-center px-8 md:px-0">
