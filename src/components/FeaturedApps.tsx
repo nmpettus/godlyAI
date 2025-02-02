@@ -14,7 +14,7 @@ export const FeaturedApps = () => {
         />
         <AppCard
           title="Space Invaders"
-          description="Experience the classic arcade game reimagined with modern AI-powered gameplay mechanics."
+          description="Experience the classic arcade game reimagined with modern AI-built gameplay mechanics."
           image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
           gradient="bg-gradient-to-br from-card-green to-card-blue"
           link="https://godlyai.org/space"
@@ -52,6 +52,7 @@ export const FeaturedApps = () => {
           description="Experience a fun voice-interactive slot machine game with AI-generated responses."
           image="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
           gradient="bg-gradient-to-br from-card-purple to-card-blue"
+          link="https://godlyai.org/slots"
         />
       </div>
     </div>
