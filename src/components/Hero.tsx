@@ -25,16 +25,16 @@ export const Hero = () => {
         <p className="text-lg md:text-xl text-white mb-16 max-w-2xl mx-auto italic px-6 md:px-0 [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
           "Let us be wise as serpents, yet harmless as doves, embracing AI not as a replacement, but as a tool for good in the hands of the faithful."
         </p>
-        <div className="flex gap-16 justify-center">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-16 justify-center px-8 md:px-0">
           <Button 
-            className="bg-gradient-to-r from-[#fdfcfb] to-[#e2d1c3] text-black w-[160px] h-[60px] text-lg rounded-full font-medium hover:opacity-90 border-2 border-black"
+            className="bg-gradient-to-r from-[#fdfcfb] to-[#e2d1c3] text-black w-full md:w-[160px] h-[60px] text-lg rounded-full font-medium hover:opacity-90 border-2 border-black"
             onClick={() => navigate('/apps')}
           >
             Explore Apps
           </Button>
           <Button 
             variant="outline" 
-            className="bg-gradient-to-r from-[#e6e9f0] to-[#eef1f5] w-[160px] h-[60px] text-lg rounded-full border-2 border-black text-black hover:opacity-90"
+            className="bg-gradient-to-r from-[#e6e9f0] to-[#eef1f5] w-full md:w-[160px] h-[60px] text-lg rounded-full border-2 border-black text-black hover:opacity-90"
             onClick={() => navigate('/contact')}
           >
             Contact Us
