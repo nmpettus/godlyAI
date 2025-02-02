@@ -5,13 +5,13 @@ export const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative min-h-[800px] flex items-center justify-center overflow-hidden mt-16">
+    <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
           backgroundImage: "url('/lovable-uploads/d8a545fc-b16b-4efa-9d31-12a6a42cb009.png')",
           backgroundSize: 'cover',
-          backgroundPosition: 'center top' // Changed from 'center' to 'center top'
+          backgroundPosition: 'center top'
         }}
       />
       <div className="relative z-10 text-center px-4 animate-fade-up">
@@ -22,7 +22,7 @@ export const Hero = () => {
           Discover innovative applications powered by artificial intelligence,
           designed to enhance your spiritual journey.
         </p>
-        <p className="text-base md:text-lg text-black mt-8 mb-16 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
+        <p className="text-base md:text-lg text-black mt-8 mb-8 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
           "Let us be wise as serpents, yet harmless as doves, embracing AI not as a replacement, but as a tool for good in the hands of the faithful."
         </p>
         <div className="flex flex-col md:flex-row gap-4 md:gap-16 justify-center px-8 md:px-0">
