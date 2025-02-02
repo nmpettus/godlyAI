@@ -11,7 +11,7 @@ export const Hero = () => {
         style={{ 
           backgroundImage: "url('/lovable-uploads/d8a545fc-b16b-4efa-9d31-12a6a42cb009.png')",
           backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundPosition: 'center top' // Changed from 'center' to 'center top'
         }}
       />
       <div className="relative z-10 text-center px-4 animate-fade-up">
