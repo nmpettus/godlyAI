@@ -14,7 +14,7 @@ export const Hero = () => {
           backgroundPosition: 'center top'
         }}
       />
-      <div className="relative z-10 text-center px-4 animate-fade-up">
+      <div className="relative z-10 text-center px-4 animate-fade-up pt-20">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
           AI-Powered Apps
         </h1>
