@@ -43,7 +43,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="h-[150px] bg-primary-dark w-full" />
+      <div className="h-[150px] bg-[#7E69AB] w-full" />
     </div>
   );
 };
