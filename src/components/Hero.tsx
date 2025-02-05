@@ -6,7 +6,7 @@ export const Hero = () => {
 
   return (
     <div className="relative">
-      <div className="relative min-h-[800px] flex items-center justify-center overflow-hidden">
+      <div className="relative min-h-[900px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
