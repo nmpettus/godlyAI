@@ -57,12 +57,12 @@ export const FeaturedApps = () => {
         <AppCard
           title="AI Word Search Puzzle"
           description="Challenge yourself with AI-generated word search puzzles that adapt to your skill level."
-          image="https://images.unsplash.com/photo-1509228468518-180dd4864904"
+          image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
           gradient="bg-gradient-to-br from-card-blue to-card-green"
           link="https://frabjous-bublanina-18c4b2.netlify.app/"
         />
         <AppCard
-          title="Number Sum Puzzle Game"
+          title="Number Sum Puzzle"
           description="Test your math skills with an engaging number puzzle game powered by AI."
           image="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d"
           gradient="bg-gradient-to-br from-card-yellow to-card-purple"
