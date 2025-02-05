@@ -6,7 +6,7 @@ export const Hero = () => {
 
   return (
     <div className="relative">
-      <div className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+      <div className="relative min-h-[800px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
@@ -43,7 +43,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="h-[150px] bg-[#261561] w-full" />
+      <div className="h-[150px] bg-[#4B3B70] w-full" />
     </div>
   );
 };
