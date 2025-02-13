@@ -1,3 +1,4 @@
+
 import { AppCard } from "./AppCard";
 
 export const FeaturedApps = () => {
@@ -66,7 +67,7 @@ export const FeaturedApps = () => {
           description="Test your math skills with an engaging number puzzle game powered by AI."
           image="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d"
           gradient="bg-gradient-to-br from-card-yellow to-card-purple"
-          link="#"
+          link="https://godlyai.org/number"
         />
       </div>
     </div>
