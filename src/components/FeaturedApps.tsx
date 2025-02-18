@@ -11,7 +11,7 @@ export const FeaturedApps = () => {
           description="Challenge yourself to create words from a random grid of letters in this engaging word puzzle game."
           image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
           gradient="bg-gradient-to-br from-card-blue to-card-green"
-          link="https://godlyai.org/letter"
+          link="https://compassionate-nobel6-y3v8m.dev-2.tempolabs.ai/?framework=VITE"
         />
         <AppCard
           title="Game of Life"
