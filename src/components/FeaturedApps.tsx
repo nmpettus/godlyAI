@@ -7,6 +7,13 @@ export const FeaturedApps = () => {
       <h2 className="text-4xl font-bold text-center mb-12 animate-fade-up">Featured Applications</h2>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <AppCard
+          title="Letter Game"
+          description="Challenge yourself to create words from a random grid of letters in this engaging word puzzle game."
+          image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+          gradient="bg-gradient-to-br from-card-blue to-card-green"
+          link="https://godlyai.org/letter"
+        />
+        <AppCard
           title="Bible Verse AI"
           description="Discover and explore Bible verses with AI-powered insights and recommendations."
           image="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
