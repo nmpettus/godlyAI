@@ -14,6 +14,13 @@ export const FeaturedApps = () => {
           link="https://godlyai.org/letter"
         />
         <AppCard
+          title="Game of Life"
+          description="Experience Conway's Game of Life, a fascinating cellular automaton simulation that demonstrates emergent behavior."
+          image="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+          gradient="bg-gradient-to-br from-card-purple to-card-blue"
+          link="https://godlyai.org/life"
+        />
+        <AppCard
           title="Bible Verse AI"
           description="Discover and explore Bible verses with AI-powered insights and recommendations."
           image="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
