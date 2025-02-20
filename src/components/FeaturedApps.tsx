@@ -13,13 +13,6 @@ export const FeaturedApps = () => {
           link="https://compassionate-nobel6-y3v8m.dev-2.tempolabs.ai/?framework=VITE"
         />
         <AppCard
-          title="Letter-Word Game"
-          description="Test your vocabulary skills by forming words from a given set of letters in this interactive word game."
-          image="https://images.unsplash.com/photo-1544196829-cc85bd8b4fb1"
-          gradient="bg-gradient-to-br from-card-yellow to-card-green"
-          link="https://godlyai.org/letter"
-        />
-        <AppCard
           title="Writing Helper"
           description="Enhance your writing with AI-powered suggestions and improvements for better content creation."
           image="https://images.unsplash.com/photo-1455390582262-044cdead277a"
