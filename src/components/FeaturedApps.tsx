@@ -9,7 +9,7 @@ export const FeaturedApps = () => {
           title="Letter Game"
           description="Challenge yourself to create words from a random grid of letters in this engaging word puzzle game."
           image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-          gradient="bg-gradient-to-br from-card-blue to-card-green"
+          gradient="bg-gradient-to-br from-[#1A1F2C] to-card-green"
           link="https://compassionate-nobel6-y3v8m.dev-2.tempolabs.ai/?framework=VITE"
         />
         <AppCard
@@ -44,7 +44,7 @@ export const FeaturedApps = () => {
           title="Space Invaders"
           description="Experience the classic arcade game reimagined with modern AI-built gameplay."
           image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
-          gradient="bg-gradient-to-br from-card-green to-card-blue"
+          gradient="bg-gradient-to-br from-[#222222] to-card-blue"
           link="https://godlyai.org/space"
         />
         <AppCard
@@ -72,7 +72,7 @@ export const FeaturedApps = () => {
           title="Medical Timeline"
           description="Visualize and track medical history with AI-powered insights and reminders."
           image="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-          gradient="bg-gradient-to-br from-card-green to-card-yellow"
+          gradient="bg-gradient-to-br from-[#403E43] to-card-yellow"
           link="https://godlyai.org/medical"
         />
         <AppCard
@@ -83,10 +83,10 @@ export const FeaturedApps = () => {
           link="https://godlyai.org/slots"
         />
         <AppCard
-          title="AI Word Search Puzzle"
+          title="AI Word Search"
           description="Challenge yourself with AI-generated word search puzzles that adapt to your skill level."
           image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
-          gradient="bg-gradient-to-br from-card-blue to-card-green"
+          gradient="bg-gradient-to-br from-[#333333] to-card-green"
           link="https://frabjous-bublanina-18c4b2.netlify.app/"
         />
         <AppCard
