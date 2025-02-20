@@ -1,4 +1,3 @@
-
 import { AppCard } from "./AppCard";
 
 export const FeaturedApps = () => {
@@ -12,6 +11,27 @@ export const FeaturedApps = () => {
           image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
           gradient="bg-gradient-to-br from-card-blue to-card-green"
           link="https://compassionate-nobel6-y3v8m.dev-2.tempolabs.ai/?framework=VITE"
+        />
+        <AppCard
+          title="Letter-Word Game"
+          description="Test your vocabulary skills by forming words from a given set of letters in this interactive word game."
+          image="https://images.unsplash.com/photo-1544196829-cc85bd8b4fb1"
+          gradient="bg-gradient-to-br from-card-yellow to-card-green"
+          link="https://godlyai.org/letter"
+        />
+        <AppCard
+          title="Writing Helper"
+          description="Enhance your writing with AI-powered suggestions and improvements for better content creation."
+          image="https://images.unsplash.com/photo-1455390582262-044cdead277a"
+          gradient="bg-gradient-to-br from-card-blue to-card-purple"
+          link="https://transcendent-duckanoo-720937.netlify.app"
+        />
+        <AppCard
+          title="Monte Carlo PI"
+          description="Explore the mathematical concept of PI through interactive Monte Carlo simulation."
+          image="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d"
+          gradient="bg-gradient-to-br from-card-purple to-card-pink"
+          link="https://godlyai.org/monte"
         />
         <AppCard
           title="Game of Life"
