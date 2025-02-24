@@ -10,7 +10,7 @@ export const FeaturedApps = () => {
           description="Challenge yourself to create words from a random grid of letters in this engaging word puzzle game."
           image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
           gradient="bg-gradient-to-br from-card-purple to-card-green"
-          link="https://crazy-lehmann2-eeuy7.dev-2.tempolabs.ai/?framework=VITE"
+          link="https://crazy-lehmann2-eeuy7.dev-2.tempolabs.ai"
         />
         <AppCard
           title="Writing Helper"
