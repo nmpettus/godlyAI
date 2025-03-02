@@ -14,7 +14,7 @@ export const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
             AI-Powered Apps
           </h1>
-          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
+          <p className="text-xl md:text-2xl text-white mb-20 max-w-2xl mx-auto [text-shadow:_-1px_1px_2px_rgb(0_0_0),_1px_1px_2px_rgb(0_0_0),_1px_-1px_2px_rgb(0_0_0),_-1px_-1px_2px_rgb(0_0_0)]">
             Discover innovative applications powered by artificial intelligence,
             designed to enhance your spiritual journey.
           </p>
