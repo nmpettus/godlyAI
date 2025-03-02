@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 export const Hero = () => {
@@ -17,9 +18,6 @@ export const Hero = () => {
             Discover innovative applications powered by artificial intelligence,
             designed to enhance your spiritual journey.
           </p>
-          <p className="text-base md:text-lg text-black mt-8 mb-8 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
-            "Let us be wise as serpents, yet harmless as doves, embracing AI not as a replacement, but as a tool for good in the hands of the faithful."
-          </p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-16 justify-center px-8 md:px-0">
             <Button onClick={() => navigate('/apps')} className="bg-gradient-to-r from-[#e6e9f0] to-[#eef1f5] w-full md:w-[160px] h-[60px] text-lg rounded-full border-2 border-black text-black hover:opacity-90">
               Explore Apps
@@ -28,6 +26,9 @@ export const Hero = () => {
               Contact Us
             </Button>
           </div>
+          <p className="text-base md:text-lg text-black mt-12 mb-8 max-w-xl mx-auto italic px-4 md:px-3 font-bold bg-white/80 py-2 rounded-lg inline-block">
+            "Let us be wise as serpents, yet harmless as doves, embracing AI not as a replacement, but as a tool for good in the hands of the faithful."
+          </p>
         </div>
       </div>
       <div className="h-[150px] bg-[#4B3B70] w-full" />
