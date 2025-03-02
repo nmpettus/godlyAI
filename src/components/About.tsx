@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 
 export const About = () => {
@@ -15,6 +16,9 @@ export const About = () => {
               <li>• A technology that can assist humans in decision-making and routine tasks</li>
               <li>• A means to automate repetitive processes and enhance efficiency</li>
               <li>• A way to generate creative content based on learned patterns</li>
+              <li>• An advanced form of computer programming that can simulate certain aspects of human cognition</li>
+              <li>• A tool for organizing and making sense of vast information repositories</li>
+              <li>• A system designed to adapt and improve through continuous feedback</li>
             </ul>
           </Card>
           
@@ -26,6 +30,9 @@ export const About = () => {
               <li>• Not infallible - it can make mistakes and reflect biases in its training data</li>
               <li>• Not a substitute for human relationships and emotional connections</li>
               <li>• Not able to make moral or ethical judgments on its own</li>
+              <li>• Not capable of spiritual discernment or understanding divine concepts</li>
+              <li>• Not a source of ultimate truth or spiritual authority</li>
+              <li>• Not able to genuinely care about human well-being beyond its programming</li>
             </ul>
           </Card>
         </div>
