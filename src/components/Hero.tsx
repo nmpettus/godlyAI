@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 
@@ -7,7 +6,7 @@ export const Hero = () => {
 
   return (
     <div className="relative">
-      <div className="relative min-h-[1100px] flex items-center justify-center overflow-hidden">
+      <div className="relative min-h-[1300px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
