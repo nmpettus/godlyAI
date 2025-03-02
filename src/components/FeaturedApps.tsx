@@ -1,3 +1,4 @@
+
 import { AppCard } from "./AppCard";
 
 export const FeaturedApps = () => {
@@ -10,7 +11,7 @@ export const FeaturedApps = () => {
           description="Challenge yourself to create words from a random grid of letters in this engaging word puzzle game."
           image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
           gradient="bg-gradient-to-br from-card-purple to-card-green"
-          link="https://tempo-deployment-399ff2ef-f2c4-4532-9d0b-92ced1154ff-evhm97ocj.vercel.app/"
+          link="/letter"
         />
         <AppCard
           title="Writing Helper"
