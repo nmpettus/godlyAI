@@ -1,3 +1,4 @@
+
 import { AppCard } from "./AppCard";
 
 export const FeaturedApps = () => {
@@ -34,7 +35,7 @@ export const FeaturedApps = () => {
           link="https://godlyai.org/life"
         />
         <AppCard
-          title="Bible Verse AI"
+          title="Bible Answer AI"
           description="Discover and explore Bible verses with AI-powered insights and recommendations."
           image="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
           gradient="bg-gradient-to-br from-card-purple to-card-pink"
