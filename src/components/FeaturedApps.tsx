@@ -25,7 +25,7 @@ export const FeaturedApps = () => {
           description="Solve encrypted quotes and famous sayings in this cryptogram puzzle game that challenges your decoding skills."
           image="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
           gradient="bg-gradient-to-br from-card-blue to-card-yellow"
-          link="https://godlyai.org/crypto"
+          link="https://godlyai.org/Crypto"
         />
         <AppCard
           title="Monte Carlo PI"
