@@ -21,6 +21,13 @@ export const FeaturedApps = () => {
           link="https://transcendent-duckanoo-720937.netlify.app"
         />
         <AppCard
+          title="CryptoQuote"
+          description="Solve encrypted quotes and famous sayings in this cryptogram puzzle game that challenges your decoding skills."
+          image="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
+          gradient="bg-gradient-to-br from-card-blue to-card-yellow"
+          link="https://godlyai.org/crypto"
+        />
+        <AppCard
           title="Monte Carlo PI"
           description="Explore the mathematical concept of PI through interactive Monte Carlo simulation."
           image="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d"
