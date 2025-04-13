@@ -1,4 +1,3 @@
-
 import { AppCard } from "./AppCard";
 
 export const FeaturedApps = () => {
@@ -103,6 +102,13 @@ export const FeaturedApps = () => {
           image="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d"
           gradient="bg-gradient-to-br from-card-yellow to-card-purple"
           link="https://godlyai.org/number"
+        />
+        <AppCard
+          title="Tetris"
+          description="Classic Tetris game reimagined with modern AI-powered features and responsive design."
+          image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+          gradient="bg-gradient-to-br from-card-blue to-card-purple"
+          link="https://godlyai.org/tetris"
         />
       </div>
     </div>
