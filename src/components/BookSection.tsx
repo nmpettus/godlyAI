@@ -5,39 +5,96 @@ export const BookSection = () => {
   return (
     <div className="py-20 px-4 bg-gradient-to-br from-card-yellow to-card-peach">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12 animate-fade-up">Featured Children's Book</h2>
-        <Card className="p-8 flex flex-col md:flex-row gap-8 items-center bg-white/90 backdrop-blur-sm">
-          <div className="w-full md:w-1/3">
-            <img
-              src="/lovable-uploads/f44b2cbf-00c1-4495-b369-73a67641c8d8.png"
-              alt="In the Beginning - A Children's Book About Creation"
-              className="rounded-lg shadow-xl w-full aspect-[3/4] object-contain"
-            />
-          </div>
-          <div className="w-full md:w-2/3 space-y-6">
-            <h3 className="text-3xl font-bold text-primary">Creation as told by Maggie - A Children's Book</h3>
-            <p className="text-lg text-gray-700">
-              Join Maggie the Yorkie as she narrates the beautiful story of Creation, making it engaging and understandable for young children.
-            </p>
-            <div className="space-y-4">
-              <p className="text-gray-600">
-                ✨ Perfect for ages 3-6
-              </p>
-              <p className="text-gray-600">
-                📚 Narrated by a lovable Yorkie named Maggie
-              </p>
-              <p className="text-gray-600">
-                🌟 Teaches the Creation story in a child-friendly way
-              </p>
+        <h2 className="text-4xl font-bold text-center mb-12 animate-fade-up">Maggie's Children's Book Collection</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Book 1: Creation */}
+          <Card className="p-6 flex flex-col items-center bg-white/90 backdrop-blur-sm">
+            <div className="w-full max-w-[200px] mb-6">
+              <img
+                src="/lovable-uploads/f44b2cbf-00c1-4495-b369-73a67641c8d8.png"
+                alt="Creation as told by Maggie - A Children's Book"
+                className="rounded-lg shadow-xl w-full aspect-[3/4] object-contain"
+              />
             </div>
-            <Button 
-              className="w-full md:w-auto bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold"
-              onClick={() => window.open("https://a.co/d/8LZ0qf4", "_blank")}
-            >
-              Get it on Amazon
-            </Button>
-          </div>
-        </Card>
+            <div className="text-center space-y-4 flex-grow flex flex-col">
+              <h3 className="text-xl font-bold text-primary">Creation as told by Maggie</h3>
+              <p className="text-gray-700 flex-grow">
+                Join Maggie the Yorkie as she narrates the beautiful story of Creation, making it engaging and understandable for young children.
+              </p>
+              <div className="space-y-2 text-sm text-gray-600">
+                <p>✨ Perfect for ages 3-6</p>
+                <p>📚 Narrated by a lovable Yorkie</p>
+                <p>🌟 Teaches the Creation story</p>
+              </div>
+              <Button 
+                className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold mt-auto"
+                onClick={() => window.open("https://a.co/d/8LZ0qf4", "_blank")}
+              >
+                Get it on Amazon
+              </Button>
+            </div>
+          </Card>
+
+          {/* Book 2: Noah's Ark */}
+          <Card className="p-6 flex flex-col items-center bg-white/90 backdrop-blur-sm">
+            <div className="w-full max-w-[200px] mb-6">
+              <img
+                src="https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+                alt="Noah's Ark as told by Maggie - A Children's Book"
+                className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
+              />
+            </div>
+            <div className="text-center space-y-4 flex-grow flex flex-col">
+              <h3 className="text-xl font-bold text-primary">Noah's Ark as told by Maggie</h3>
+              <p className="text-gray-700 flex-grow">
+                Follow Maggie as she tells the incredible story of Noah's Ark, bringing this timeless tale to life for children.
+              </p>
+              <div className="space-y-2 text-sm text-gray-600">
+                <p>🐾 Animal adventure story</p>
+                <p>📚 Engaging storytelling</p>
+                <p>🌈 Teaches about God's promises</p>
+              </div>
+              <Button 
+                className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold mt-auto"
+                onClick={() => window.open("https://a.co/d/0L2OQLa", "_blank")}
+              >
+                Get it on Amazon
+              </Button>
+            </div>
+          </Card>
+
+          {/* Book 3: David and Goliath */}
+          <Card className="p-6 flex flex-col items-center bg-white/90 backdrop-blur-sm">
+            <div className="w-full max-w-[200px] mb-6">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+                alt="David and Goliath as told by Maggie - A Children's Book"
+                className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
+              />
+            </div>
+            <div className="text-center space-y-4 flex-grow flex flex-col">
+              <h3 className="text-xl font-bold text-primary">David and Goliath as told by Maggie</h3>
+              <p className="text-gray-700 flex-grow">
+                Discover the courage of young David through Maggie's eyes in this inspiring tale of faith and bravery.
+              </p>
+              <div className="space-y-2 text-sm text-gray-600">
+                <p>⚔️ Story of courage and faith</p>
+                <p>📚 Inspiring for young readers</p>
+                <p>💪 Teaches about trusting God</p>
+              </div>
+              <Button 
+                className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold mt-auto"
+                onClick={() => window.open("https://a.co/d/h3ken2L", "_blank")}
+              >
+                Get it on Amazon
+              </Button>
+            </div>
+          </Card>
+        </div>
+        
+        <p className="text-primary text-center mt-8 max-w-3xl mx-auto">
+          Join Maggie the Yorkie on these wonderful biblical adventures, perfect for bedtime stories and teaching children about faith, courage, and God's love.
+        </p>
       </div>
     </div>
   );
