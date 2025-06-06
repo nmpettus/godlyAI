@@ -41,7 +41,7 @@ export const BookSection = () => {
               <img
                 src="/lovable-uploads/Jonah.webp"
                 alt="Jonah as told by Maggie - A Children's Book"
-                className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
+                className="rounded-lg shadow-xl w-full aspect-[3/4] object-contain"
               />
             </div>
             <div className="text-center space-y-4 flex-grow flex flex-col">
@@ -69,7 +69,7 @@ export const BookSection = () => {
               <img
                 src="/lovable-uploads/NoahPic.jpg"
                 alt="Noah's Ark as told by Maggie - A Children's Book"
-                className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
+                className="rounded-lg shadow-xl w-full aspect-[3/4] object-contain"
               />
             </div>
             <div className="text-center space-y-4 flex-grow flex flex-col">
