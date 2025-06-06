@@ -13,11 +13,11 @@ export const FeaturedApps = () => {
           link="https://godlyaiword.netlify.app/"
         />
         <AppCard
-          title="Writing Helper"
-          description="Enhance your writing with AI-powered suggestions and improvements for better content creation."
+          title="Piano Synth"
+          description="Create beautiful music with this interactive piano synthesizer featuring multiple instruments and sound effects."
           image="https://images.unsplash.com/photo-1455390582262-044cdead277a"
           gradient="bg-gradient-to-br from-card-blue to-card-purple"
-          link="https://transcendent-duckanoo-720937.netlify.app"
+          link="https://godlyai.org/piano"
         />
         <AppCard
           title="CryptoQuote"
