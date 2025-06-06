@@ -39,20 +39,20 @@ export const BookSection = () => {
           <Card className="p-6 flex flex-col items-center bg-white/90 backdrop-blur-sm">
             <div className="w-full max-w-[200px] mb-6">
               <img
-                src="https://images.unsplash.com/photo-1544947950-fa07a98d237f"
-                alt="Noah's Ark as told by Maggie - A Children's Book"
+                src="https://m.media-amazon.com/images/I/71QxGxGxGxL._SY522_.jpg"
+                alt="Jonah as told by Maggie - A Children's Book"
                 className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
               />
             </div>
             <div className="text-center space-y-4 flex-grow flex flex-col">
-              <h3 className="text-xl font-bold text-primary">Noah's Ark as told by Maggie</h3>
+              <h3 className="text-xl font-bold text-primary">Jonah as told by Maggie</h3>
               <p className="text-gray-700 flex-grow">
-                Follow Maggie as she tells the incredible story of Noah's Ark, bringing this timeless tale to life for children.
+                Join Maggie the Yorkie as she tells the amazing story of Jonah and the whale, bringing this classic biblical tale to life for young readers.
               </p>
               <div className="space-y-2 text-sm text-gray-600">
-                <p>🐾 Animal adventure story</p>
+                <p>🐋 Underwater adventure story</p>
                 <p>📚 Engaging storytelling</p>
-                <p>🌈 Teaches about God's promises</p>
+                <p>🙏 Teaches about obedience and forgiveness</p>
               </div>
               <Button 
                 className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold mt-auto"
