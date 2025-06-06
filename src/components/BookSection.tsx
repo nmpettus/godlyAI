@@ -39,7 +39,7 @@ export const BookSection = () => {
           <Card className="p-6 flex flex-col items-center bg-white/90 backdrop-blur-sm">
             <div className="w-full max-w-[200px] mb-6">
               <img
-                src="https://m.media-amazon.com/images/I/71QxGxGxGxL._SY522_.jpg"
+                src="/lovable-uploads/Jonah.webp"
                 alt="Jonah as told by Maggie - A Children's Book"
                 className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
               />
@@ -63,24 +63,24 @@ export const BookSection = () => {
             </div>
           </Card>
 
-          {/* Book 3: David and Goliath */}
+          {/* Book 3: Noah's Ark */}
           <Card className="p-6 flex flex-col items-center bg-white/90 backdrop-blur-sm">
             <div className="w-full max-w-[200px] mb-6">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
-                alt="David and Goliath as told by Maggie - A Children's Book"
+                src="/lovable-uploads/NoahPic.jpg"
+                alt="Noah's Ark as told by Maggie - A Children's Book"
                 className="rounded-lg shadow-xl w-full aspect-[3/4] object-cover"
               />
             </div>
             <div className="text-center space-y-4 flex-grow flex flex-col">
-              <h3 className="text-xl font-bold text-primary">David and Goliath as told by Maggie</h3>
+              <h3 className="text-xl font-bold text-primary">Noah's Ark as told by Maggie</h3>
               <p className="text-gray-700 flex-grow">
-                Discover the courage of young David through Maggie's eyes in this inspiring tale of faith and bravery.
+                Join Maggie the Yorkie as she tells the wonderful story of Noah's Ark, bringing this beloved biblical tale to life for children.
               </p>
               <div className="space-y-2 text-sm text-gray-600">
-                <p>⚔️ Story of courage and faith</p>
-                <p>📚 Inspiring for young readers</p>
-                <p>💪 Teaches about trusting God</p>
+                <p>🐾 Animal adventure story</p>
+                <p>📚 Engaging storytelling</p>
+                <p>🌈 Teaches about God's promises</p>
               </div>
               <Button 
                 className="w-full bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 transition-opacity text-white font-semibold mt-auto"
